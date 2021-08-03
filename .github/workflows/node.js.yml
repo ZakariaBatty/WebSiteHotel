@@ -18,6 +18,6 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
-        server: ftp://51.255.228.8
+        server: ftp.deployreact.ga
         username: ftp-deploy
         password: ${{ secrets.ftp_password }}
